@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rocketseat-education/bootcamp-gostack-desafios">Conferir Desafio</a>
+  <a href="https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-conceitos-nodejs">Conferir Desafio</a>
 </p>
 
 </p>
