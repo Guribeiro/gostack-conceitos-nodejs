@@ -66,13 +66,13 @@ app.post(
     const repositoryIndex = request.repositoryIndex;
 
     const repository = repositories[repositoryIndex];
-
+    
     repositories[repositoryIndex] = {
       ...repository,
-      likes: repository.likes + like,
+      likes: repository.likes + 1,
     };
 
-    return response.json({ message: "liked" });
+    return response.json(repositories[repositoryIndex]);
   }
 );
 
@@ -95,7 +95,7 @@ app.put(
       techs,
     };
 
-    return response.status(200).json();
+    return response.status(200).json(repositories[repositoryIndex]);
   }
 );
 
